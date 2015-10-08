@@ -39,6 +39,27 @@ q:before, q:after {
   content: none;
 }
 
+div.topprad {
+    display: table;
+    width: 100%;
+    table-layout: fixed;    /* For cells of equal size */
+}
+div.topprad a {
+    display: table-cell;
+    text-align: center;
+    color: white;
+}
+div.topprad a:first-child {
+    text-align: left;
+}
+div.topprad a:last-child {
+    text-align: right;
+}
+
+div.wrapper {
+    min-height: 600px;
+    height: auto;
+}
 ins {
   text-decoration: none;
 }
