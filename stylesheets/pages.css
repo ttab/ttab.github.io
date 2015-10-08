@@ -67,6 +67,14 @@ del {
   text-decoration: line-through;
 }
 
+table.moduler {
+    border-spacing: 0;
+}
+
+able.moduler th, td {
+    padding: 5px;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
