@@ -1,23 +1,47 @@
----
-layout: default
----
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=yes">
+        <meta name="description" content="TT Nyhetsbyrån är Nordens ledande fullservicepartner inom media. Kontakta oss: 08-692 26 00">
+        <meta name="keywords" content="TT Nyhetsbyrån, TT, bildbyrå, nyheter, vi gör andra bättre">
+        <meta http-equiv="cleartype" content="on">
+        <title>TT Nyhetsbyrån - Utvecklare</title>
+        <link rel="stylesheet" href="stylesheets/app.css">
+        <link rel="stylesheet" href="stylesheets/pages.css">
+    </head>
+    <body>
+        <header class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header"><div class="topprad"><a href="http://tt.se/" class="navbar-brand"><img src="images/ikon1852x399.png" height="30px"></a><a href="specifikationer.html">Specifikationer</a><a href="kundsystem.html">Kundsystem</a><a href="moduler.html">Moduler</a><a href="index_eng.html"><img src="images/eng.png" noborder height="20"/></a></div></div>
+            </div>
+        </header>
+        <div class="content">
+        <div class="wrapper">
+          <div class="container">
+            
+         
+  <h1>Välkommen</h1>
+<b>Här finns TT Nyhetsbyråns sidor för utvecklare.</b><br/>
+<br/>
+Målsättningen är att samla alla resurser som kan vara till nytta för TT:s kunder, deras tekniska personal och utvecklare, konsulter med flera.<br/><br/>
+<ul>
+<li>Under rubriken <a href="specifikationer.html">Specifikationer</a> finns olika typer av dokumentation kring TT:s material. Det är dokument, skisser, scheman, dtd mm.</li>
+<li>Under rubriken <a href="kundsystem.html">Kundsystem</a> finns projekt som är mer direkt användbara för TT:s kunder när det gäller att ta emot och bearbeta det TT levererar. Där finns beskrivningar och kod-exempel.</li>
+<li>Under rubriken <a href="moduler.html">Moduler</a> finns mer generella kod-moduler som kan användas enligt de beskrivningar och licenser som framgår under respektive modul.</li>
+</ul>
+<br/>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<br/><br/>
+If you need information in English click the <a href="index_eng.html">English icon.</a><br/> 
+<br/><br/>
+          </div>
+          </div>
+        </div>
+        <div class="footer">
+        </div>
+    </body>
+</html>
