@@ -9,24 +9,24 @@
         <meta name="description" content="TT Nyhetsbyrån är Nordens ledande fullservicepartner inom media. Kontakta oss: 08-692 26 00">
         <meta name="keywords" content="TT Nyhetsbyrån, TT, bildbyrå, nyheter, vi gör andra bättre">
         <meta http-equiv="cleartype" content="on">
-        <title>TT Nyhetsbyrån - Utvecklare</title>
+        <title>TT Nyhetsbyrån - Developer</title>
         <link rel="stylesheet" href="stylesheets/app.css">
         <link rel="stylesheet" href="stylesheets/pages.css">
     </head>
     <body>
         <header class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
-                <div class="navbar-header"><div class="topprad"><a href="http://tt.se/" class="navbar-brand"><img src="images/ikon1852x399.png" height="30px"></a><a href="specifikationer.html">Specifikationer</a><a href="kundsystem.html">Kundsystem</a><a href="moduler.html">Moduler</a><a href="index_eng.html"><img src="images/eng.png" noborder height="20"/></a></div></div>
+                <div class="navbar-header"><div class="topprad"><a href="http://tt.se/" class="navbar-brand"><img src="images/ikon1852x399.png" height="30px"></a><a href="specs.html">Specifications</a><a href="cust.html">Customer systems</a><a href="mods.html">Modules</a><a href="index.html"><img src="images/swe.png" noborder height="20"/></a></div></div>
             </div>
         </header>
         <div class="content">
         <div class="wrapper">
           <div class="container">
 
-          <!-- Här ska vi ha denna sidas innehåll.  Byt också index_eng.html med rätt engelskspråkig sida. -->
+          <!-- Här ska vi ha denna sidas innehåll på engelska.  Byt också index.html med rätt svenskspråkig sida. -->
             
           </div>
-          </div>
+        </div>
         </div>
         <div class="footer">
         </div>
