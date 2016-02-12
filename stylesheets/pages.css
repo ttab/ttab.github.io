@@ -42,15 +42,16 @@ q:before, q:after {
 div.topprad {
     display: table;
     width: 100%;
-    table-layout: fixed;    /* For cells of equal size */
 }
 div.topprad a {
-    display: table-cell;
     text-align: center;
     color: white;
+    line-height: 50px;
+    margin-left: 25px;
 }
 div.topprad a:first-child {
     text-align: left;
+    margin-left: 0;
 }
 div.topprad a:last-child {
     text-align: right;
@@ -119,7 +120,6 @@ body {
 
 .wrapper {
   position:relative;
-  width: 980px;
   margin: 0 auto;
 }
 
@@ -152,8 +152,6 @@ h2 {
   font-size: 21px;
   max-width: 740px;
 }
-
-.page h1.title { margin-top: 25px; }
 
 h4 {
   font-size: 30px;
@@ -214,7 +212,7 @@ textarea {
 }
 
 h1 {
-  margin: 90px auto 0 auto;
+  margin: 45px auto 25px auto;
   font-size: 48px;
   font-weight: 200;
   line-height: 60px;
@@ -712,7 +710,6 @@ footer {
   line-height: 1.5;
   color: #777;
   clear: both;
-  width: 980px;
   padding: 40px 0;
   margin: 70px auto 0 auto;
   border-top: 1px solid #eee;
@@ -785,3 +782,7 @@ footer .right {
 }
 .versions table tr th { font-weight: bold; text-align: left; }
 .versions table tr td { padding: 5px 20px 5px 0;  }
+
+.content > .wrapper > .container {
+    padding-bottom: 100px;
+}
