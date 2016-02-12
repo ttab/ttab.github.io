@@ -145,12 +145,9 @@ p code {
 }
 
 h2 {
-  text-align: center;
   font-weight: 200;
-  line-height: 38px;
-  margin: 40px auto 0;
-  font-size: 21px;
-  max-width: 740px;
+  margin: 35px 0 25px;
+  font-size: 30px;
 }
 
 h4 {
@@ -162,7 +159,7 @@ h4 {
 
 p {
   margin: 15px 0 30px;
-  font-weight: 300;
+  font-weight: normal;
   line-height: 1.7em;
 }
 
@@ -212,11 +209,10 @@ textarea {
 }
 
 h1 {
-  margin: 45px auto 25px auto;
-  font-size: 48px;
+  margin: 35px 0 25px;
+  font-size: 38px;
   font-weight: 200;
   line-height: 60px;
-  text-align: center;
   max-width: 910px;
   color: #333;
 }

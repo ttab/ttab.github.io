@@ -16,15 +16,14 @@
   <body>
     <header class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header"><div class="topprad"><a href="http://tt.se/" class="navbar-brand"><img src="images/ikon1852x399.png" height="30px"></a><a href="specs.html">Specifications</a><a href="cust.html">Customer systems</a><a href="mods.html">Modules</a><a href="index.html"><img src="images/swe.png" noborder height="20"/></a></div></div>
+        <div class="navbar-header"><div class="topprad"><a href="http://tt.se/" class="navbar-brand"><img src="images/ikon1852x399.png" height="30px"></a><a href="index.html">Specifications</a><a href="cust.html">Customer systems</a><a href="mods.html">Modules</a><a href="index.html"><img src="images/swe.png" noborder height="20"/></a></div></div>
       </div>
     </header>
     <div class="content">
       <div class="wrapper">
         <div class="container">
-
-          <!-- Här ska vi ha denna sidas innehåll på engelska. -->
-
+          <h2></h2>
+          <p><!-- Här ska vi ha denna sidas innehåll på engelska. --></p>
         </div>
       </div>
     </div>
