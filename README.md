@@ -1,3 +1,3 @@
 
-TT Nyhetsbyrån Spec pages
-=========================
+spec.tt.se
+==========
