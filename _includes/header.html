@@ -1,0 +1,18 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner container">
+    <div class="navbar-header">
+      <a href="/" class="navbar-brand">
+	<img src="images/ikon1852x399.png">
+      </a>
+      <ul class="nav navbar-nav">
+      {% assign navbar = site.pages | sort:'navbar' %}
+      {% for my_page in navbar %}
+      {% if my_page.navbar %}
+      <li class="{% if my_page.url == page.url %}active{% endif %}">
+	<a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+      </li>
+      {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+</header>
