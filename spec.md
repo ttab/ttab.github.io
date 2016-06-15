@@ -2,7 +2,7 @@
 layout: page
 title: Specifications
 permalink: /
-navbar: 1
+navbar: 4
 ---
 
 Developer information about data formats and integrations.
