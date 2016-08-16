@@ -3,8 +3,8 @@ layout: page
 title: TT NewsML spec
 ---
 
-TT:s main content format is [ttninjs](http://tt.se/spec/ttninjs/ttninjs-schema_1.0.json). 
-The XML variant is a [IPTC NewsML G2 2.20](https://iptc.org/standards/newsml-g2/) compliant translation of ttninjs 
+TT:s main content format is [ttninjs](https://raw.githubusercontent.com/ttab/ttspec/master/ttninjs-schema_1.0.json).
+The XML variant is a [IPTC NewsML G2 2.20](https://iptc.org/standards/newsml-g2/) compliant translation of ttninjs
 where each field somehow relates back to the original ttninjs.
 
 Revision history
@@ -323,16 +323,16 @@ The XML explained
 
         <!-- value is ttninjs.date optional. See http://spec.tt.se/dates.html -->
         <contentMetaExtProperty type="ttext:date" literal="2015-12-28"/>
-        
+
         <!-- value is ttninjs.datetime optional. See http://spec.tt.se/dates.html  -->
         <contentMetaExtProperty type="ttext:datetime" literal="2015-12-28T15:56:12+02:00"/>
-        
+
         <!-- value is ttninjs.enddate optional. See http://spec.tt.se/dates.html  -->
         <contentMetaExtProperty type="ttext:enddate" literal="2015-12-29"/>
-        
+
         <!-- value is ttninjs.enddatetime optional. See http://spec.tt.se/dates.html  -->
         <contentMetaExtProperty type="ttext:enddatetime" literal="2015-12-29T15:56:15+02:00"/>
-        
+
         <!-- revision history of document. see http://spec.tt.se/revisions.html -->
         <revisions xmlns="http://tt.se/spec/newsml">
           <revisionItem reluri="http://tt.se/media/text/150410-elephant-85140">

@@ -23,7 +23,7 @@ locally and served off suitable platforms.
 Entire HTML-documents as XML
 ----------------------------
 
-`body_html` contains an entire HTML(5)-document including 
+`body_html` contains an entire HTML(5)-document including
 `<html>`, `<head>` and `<body>`. It's an XML-polyglot so
 whilst it adhere to HTML5, it is parseable using a strict
 XML-parser (`img` tags are closed, etc).
@@ -34,13 +34,13 @@ XML-parser (`img` tags are closed, etc).
   <body>
     <article>...</article>
     <article>...</article>
-    ...    
+    ...
 </html>
 ```
 
 The intention is that the contents of `body_html5` can be
 saved to a file and viewed without styling and also picked
-apart using an XSL-transform or a 
+apart using an XSL-transform or a
 [jQuery alike tool](https://github.com/algesten/zu).
 
 Multiple article
@@ -119,10 +119,10 @@ body_html5
 
       <!-- Image byline -->
       <div class="byline">Karl/TT</div>
-      
+
       <!-- Image caption -->
       <figcaption>Baby elephant causing minor chaos</figcaption>
-      
+
     </figure>
   </section>
 
@@ -155,6 +155,4 @@ body_html5
 </article>
 ```
 
-[ttninjs]: http://tt.se/spec/ttninjs/ttninjs-schema_1.0.json
-
-
+[ttninjs]: https://raw.githubusercontent.com/ttab/ttspec/master/ttninjs-schema_1.0.json
