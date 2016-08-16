@@ -348,6 +348,21 @@ The XML explained
           </revisionItem>
         </revisions>
 
+        <!-- bylines for document. follows the structure of ttninjs. -->
+        <bylines xmlns="http://tt.se/spec/newsml">
+            <bylineItem>
+                <byline>Martin Algesten/TT</byline>
+                <firstname>Martin</firstname>
+                <lastname>Algesten</lastname>
+                <role>Photographer</role>
+                <email>martin.algesten@acme.com</email>
+                <jobtitle>Editor in chief</jobtitle>
+                <phone>+46555123456</phone>
+                <initials>mag</initials>
+                <affiliation>TT</affiliation>
+            </bylineItem>
+        </bylines>
+
       </contentMeta>
 
       <!-- When a <subject type="cpnat:place"> above has an associated
