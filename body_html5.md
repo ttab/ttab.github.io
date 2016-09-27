@@ -8,6 +8,7 @@ This is a "loose" spec for the body_html5 part of [ttninjs][ttninjs].
 Revision history
 ----------------
 
+* 1.4 <footer> and <h5> for changes as of 2016-10-03
 * 1.3 Clarify html-doc structure
 * 1.2 alt-attribute in `<img>`, `div.byline` before `figcaption` (to be html5-valid)
 * 1.1 Multiple `<article>`
@@ -99,6 +100,13 @@ body_html5
 
       <p>Some bystanders commented that the calf was "causing a
       scene".</p>
+
+      <!-- h5 is used for direct questions, typically alternated with
+           blockquote -->
+      <h5>Are you afraid of elephants?</h5>
+      <blockquote>A baby this size is not much to fear, but a
+          lone tusker is another story.</blockquote>
+
     </div>
 
     <!-- Byline for this text part. -->
@@ -124,6 +132,14 @@ body_html5
       <figcaption>Baby elephant causing minor chaos</figcaption>
 
     </figure>
+
+    <!-- Specifically for material that has a broadcast time, such
+    as articles about TV-programs. That information is in
+    a footer.
+    <footer class="broadcastinfo">
+      <p>Channel 5, 20/3 at 08:00</p>
+    </footer>
+
   </section>
 
   <!-- A section containing one or several notable quotes. -->
