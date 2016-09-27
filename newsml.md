@@ -10,6 +10,7 @@ where each field somehow relates back to the original ttninjs.
 Revision history
 ----------------
 
+* 1.6 added `<bylines>`
 * 1.5 added `<contentMetaExtProperty>` for `date`, `datetime`, `enddate` and `enddatetime`.
 * 1.4 added `<revisions>` section.
 * 1.3 fixed literal in `<contentMetaExtProperty>` and use of `<remoteContentExtProperty>`
