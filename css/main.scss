@@ -45,3 +45,27 @@ $on-laptop:        800px;
 @import
         "layout"
 ;
+
+article img {
+    width: 100%;
+    max-width: 700px;
+}
+
+article {
+   padding-bottom: 200px;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.post {
+  // adjust this for number of menus
+  margin-top: 200px;
+}
+@media screen and (min-width: $on-laptop - 64) {
+  .post {
+    margin-top: 0px;
+  }
+}
+

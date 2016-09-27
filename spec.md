@@ -19,7 +19,7 @@ Name | Description | System
 <a href="http://tt.se/spec/catalog/1.0">catalog</a> | newsml tt: qcode catalog | 
 <a href="newsml.html">newsml</a> | newsml spec | <img src="images/xml_logo.png" height="16"/>&nbsp;XML
 <a href="http://github.com/ttab/coffeescript-style-guide">coffeescript-style-guide</a> | Best-practices and coding conventions for the CoffeeScript programming language | <img src="images/coffee_logo.png" height="16"/>&nbsp;CoffeeScript
-<a href="http://ttab.github.io/ttnitf">ttnitf</a> |  TTNITF DTD and documentation | <img src="images/sgml_logo.jpg" height="16"/>&nbsp;SGML
+<a href="http://spec.tt.se/ttnitf">ttnitf</a> |  TTNITF DTD and documentation | <img src="images/sgml_logo.jpg" height="16"/>&nbsp;SGML
 <a href="openidflow.html">openid flow</a> | TT OpenID login flow | &nbsp;
 <a href="revisions.html">revisions</a> | Revisions section of ttninjs/newsmlg2. | 
 

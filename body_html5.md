@@ -1,6 +1,6 @@
 ---
 layout: page
-title: body_html5 spec 1.2
+title: body_html5 spec
 ---
 
 This is a "loose" spec for the body_html5 part of [ttninjs][ttninjs].
