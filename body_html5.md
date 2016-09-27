@@ -8,7 +8,7 @@ This is a "loose" spec for the body_html5 part of [ttninjs][ttninjs].
 Revision history
 ----------------
 
-* 1.4 <footer> and <h5> for changes as of 2016-10-03
+* 1.4 `<footer>` and `<h5>` for changes as of 2016-10-03
 * 1.3 Clarify html-doc structure
 * 1.2 alt-attribute in `<img>`, `div.byline` before `figcaption` (to be html5-valid)
 * 1.1 Multiple `<article>`
