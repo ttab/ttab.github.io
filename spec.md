@@ -8,20 +8,29 @@ navbar: 1
 Developer information about data formats and integrations.
 
 {:.table}
-Name | Description | System
---- | --- | ---
-<a href="http://github.com/ttab/ttspec">ttspec</a> | spec as code | <img src="images/javascript_logo.png" height="16"/>&nbsp;Javascript
-<a href="http://tt.se/spec">namespaces</a> | Namespaces and controlled vocabularies used by TT | 
-<a href="https://raw.githubusercontent.com/ttab/ttspec/master/ttninjs-schema_1.0.json">ttninjs</a> | ttninjs schema (<a href="https://github.com/ttab/ttspec#ttninjs-change-history">changelog</a>) | <img src="images/json_logo.png" height="16"/>&nbsp;Json
-<a href="dates.html">dates</a> | Explaining the various date fields | <img src="images/json_logo.png" height="16"/>&nbsp;Json
-<a href="body_html5.html">body_html5</a> | body_html5 spec | <img src="images/xml_logo.png" height="16"/>&nbsp;HTML
-<a href="https://raw.githubusercontent.com/ttab/ttspec/master/body_html5.xsd">body_html5.xsd</a> | body_html5 schema | <img src="images/xml_logo.png" height="16"/>&nbsp;XML
-<a href="http://tt.se/spec/catalog/1.0">catalog</a> | newsml tt: qcode catalog | 
-<a href="newsml.html">newsml</a> | newsml spec | <img src="images/xml_logo.png" height="16"/>&nbsp;XML
-<a href="http://github.com/ttab/coffeescript-style-guide">coffeescript-style-guide</a> | Best-practices and coding conventions for the CoffeeScript programming language | <img src="images/coffee_logo.png" height="16"/>&nbsp;CoffeeScript
-<a href="http://spec.tt.se/ttnitf">ttnitf</a> |  TTNITF DTD and documentation | <img src="images/sgml_logo.jpg" height="16"/>&nbsp;SGML
-<a href="openidflow.html">openid flow</a> | TT OpenID login flow | &nbsp;
-<a href="revisions.html">revisions</a> | Revisions section of ttninjs/newsmlg2. | 
+Name | Description
+--- | ---
+[ttspec][1]          | spec as code
+[namespaces][2]      | Namespaces and controlled vocabularies used by TT
+[ttninjs][3]         | ttninjs schema ([change log][4])
+[dates][5]           | Explanation of the various date fields
+[body\_html5][6]     | body\_html5 spec
+[body\_html5.xsd][7] | body\_html5 schema
+[catalog][8]         | newsml tt: qcode catalog
+[newsml][9]          | newsml spec
+[ttnitf][10]         |  TTNITF DTD and documentation
+[openid flow][11]    | TT OpenID login flow
+[revisions][12]      | Revisions section of ttninjs/newsmlg2
 
-
-
+[1]:  http://github.com/ttab/ttspec
+[2]:  http://tt.se/spec
+[3]:  https://raw.githubusercontent.com/ttab/ttspec/master/ttninjs-schema_1.0.json
+[4]:  https://github.com/ttab/ttspec#ttninjs-change-history
+[5]:  dates.html
+[6]:  body_html5.html
+[7]:  https://raw.githubusercontent.com/ttab/ttspec/master/body_html5.xsd
+[8]:  http://tt.se/spec/catalog/1.0
+[9]:  newsml.html
+[10]: http://spec.tt.se/ttnitf
+[11]: openidflow.html
+[12]: revisions.html
