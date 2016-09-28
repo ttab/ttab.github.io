@@ -8,11 +8,11 @@ navbar: 1
 Developer information about data formats and integrations.
 
 {:.table}
-Name | Description
---- | ---
+Name                 | Description
+---                  | ---
 [ttspec][1]          | spec as code
 [namespaces][2]      | Namespaces and controlled vocabularies used by TT
-[ttninjs][3]         | ttninjs schema ([change log][4])
+[ttninjs][3]         | ttninjs schema ([change history][4])
 [dates][5]           | Explanation of the various date fields
 [body\_html5][6]     | body\_html5 spec
 [body\_html5.xsd][7] | body\_html5 schema
