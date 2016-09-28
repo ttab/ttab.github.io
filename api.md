@@ -58,7 +58,7 @@ the Push API below.
 
 # Server Push
 
-API:s that is pushing our data out as it becomes available.
+API:s that pushes our data out as it becomes available.
 
 ## Deliveries
 
