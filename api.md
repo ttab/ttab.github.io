@@ -54,8 +54,6 @@ the Push API below.
 
 [Search API Documentation](search-api.html)
 
-
-
 # Server Push
 
 API:s that pushes our data out as it becomes available.
@@ -82,4 +80,4 @@ traditional upload protocols (like FTP). Significant for these methods
 is a need to support somewhat non-dependable transports where a *list*
 of latest x number of articles can be presented.
 
-*Details coming*
+[Push API Documentation](push-api.html)
