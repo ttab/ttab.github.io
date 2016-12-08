@@ -21,6 +21,7 @@ Name                 | Description
 [ttnitf][10]         |  TTNITF DTD and documentation
 [openid flow][11]    | TT OpenID login flow
 [revisions][12]      | Revisions section of ttninjs/newsmlg2
+[separation][13]     | Degrees of separation. Linking between items.
 
 [1]:  http://github.com/ttab/ttspec
 [2]:  http://tt.se/spec
@@ -34,3 +35,4 @@ Name                 | Description
 [10]: http://spec.tt.se/ttnitf
 [11]: openidflow.html
 [12]: revisions.html
+[13]: separation.html
