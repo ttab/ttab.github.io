@@ -85,6 +85,7 @@ The text links to an image. Not delivered together, however an editor
 has actively associated the two.
 
 In ttninjs under `associations`:
+
 * a `representationtype` set to `associated`.
 * no renditions.
 
