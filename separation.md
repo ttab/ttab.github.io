@@ -105,7 +105,7 @@ N.B. In contrast to level 1, items linked on this level do not show in
       "mimetype": "image/jpeg",
       "representationtype": "associated",
       "type": "picture",
-      "uri": "http://tt.se/media/image/8DADBB3B24C74988970E98F8A070E5B8",
+      "uri": "http://tt.se/media/image/8DADBB3B24C74988970E98F8A070E5B8"
     }
   }
   ...
@@ -118,8 +118,11 @@ together. Happens when the text and the image share a job id. I.e. TT
 editorial process means the two have been created as part of the same
 news event.
 
-In ttninjs we find no explicit mention of the image (or text). The
-only link is a shared `job` field value.
+In ttninjs we show this connecting in `associations`:
+
+* a `representationtype` set to `associated`.
+* no renditions.
+* a `job` field that indicates this was the mechanism involved.
 
 The text:
 
@@ -130,6 +133,17 @@ The text:
   "mimetype": "text/html",
   "representationtype": "complete",
   "job": "209796",
+  "associations": {
+    "a001": {
+      "byline": "SVT",
+      "description_text": "I första programmet diskuterar Lars Lerin föräldraskap med skådespelaren Helena Bergström. Pressbild.",
+      "mimetype": "image/jpeg",
+      "representationtype": "associated",
+      "type": "picture",
+      "uri": "http://tt.se/media/image/8DADBB3B24C74988970E98F8A070E5B8",
+      "job": "209796"
+    }
+  }
   ...
 ```
 
@@ -142,6 +156,16 @@ The image:
   "mimetype": "image/jpeg",
   "representationtype": "complete",
   "job": "209796",
+  "associations": {
+    "a001": {
+      "description_text": "Nu ger sig regeringen in i kampen för att EU:s läkemedelsmyndighet (EMA) ska flytta till Stockholm-Uppsala-regionen när Storbritannien lämnar EU. Men region Skåne stödjer Danmarks kandidatur. Inom ett par månader hoppas sjukvårdsminister Gabriel Wikströ",
+      "mimetype": "text/plain",
+      "representationtype": "associated",
+      "type": "text",
+      "uri": "http://tt.se/media/text/161208-larslerin-380203",
+      "job": "209796"
+    }
+  }
   ...
 ```
 
