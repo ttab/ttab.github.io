@@ -12,19 +12,19 @@ This document describes a (TT specific) conceptual system of how
 closely material is related. The given exampel is how a news text
 relates to a news image.
 
-* Level 1 - *embedded* (inbakad). The images are embedded in the text; they
-  are delivered together. Only happens as a consequence of an editor
+* Level 1 - *embedded*. The images are embedded in the text; they are
+  delivered together. Only happens as a consequence of an editor
   actively associating the two.
-* Level 2 - *linked* (länkad). The text links to an image. Not delivered
+* Level 2 - *linked*. The text links to an image. Not delivered
   together, however an editor has actively associated the two.
-* Level 3 - *by job* (på jobb). The text is implicitly refering to an
-  image. Not delivered together. Happens when the text and the image
-  share a job id. I.e. TT editorial process means the two have been
-  created as part of the same news event.
-* Level 4 - *meta* (via metadata). The text is implicitly refering to an
-  image by means of sharing keywords or other metadata pertaining to
-  the same news event. Not delivered together. Such links can be created
-  by editors manually grouping material.
+* Level 3 - *by job*. The text is implicitly refering to an image. Not
+  delivered together. Happens when the text and the image share a job
+  id. I.e. TT editorial process means the two have been created as
+  part of the same news event.
+* Level 4 - *meta*. The text is implicitly refering to an image by
+  means of sharing keywords or other metadata pertaining to the same
+  news event. Not delivered together. Such links can be created by
+  editors manually grouping material.
 
 
 
@@ -84,10 +84,11 @@ Under ttninjs `associations` we find:
 The text links to an image. Not delivered together, however an editor
 has actively associated the two.
 
-In ttninjs, we will not find the link in `body_html5` and under
-`associations`:
+In ttninjs under `associations`:
 * a `representationtype` set to `associated`.
 * no renditions.
+
+N.B. In contrast to level 1, this level is not part of `body_html5`.
 
 ```json
 {
