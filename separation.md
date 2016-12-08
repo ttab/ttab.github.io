@@ -89,7 +89,8 @@ In ttninjs under `associations`:
 * a `representationtype` set to `associated`.
 * no renditions.
 
-N.B. In contrast to level 1, this level is not part of `body_html5`.
+N.B. In contrast to level 1, items linked on this level do not show in
+`body_html5`.
 
 ```json
 {
