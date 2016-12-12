@@ -4,8 +4,6 @@ title: Degrees of Separation
 navbar: 1
 ---
 
-# UNDER REVISION, NOT FINALIZED!
-
 ## Summary
 
 This document describes a (TT specific) conceptual system of how
