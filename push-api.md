@@ -5,7 +5,7 @@ title: Push API
 
 The push API allows real-time access to feeds defined on the
 [tt.se][tt] web site. The API is available using either
-[WebSockets][wsapi] or [HTTP long poll][lpapi].
+[WebSockets (Socket.IO)][wsapi] or [HTTP long poll][lpapi].
 
 [tt]:http://beta.tt.se
 [io]:http://socket.io
@@ -28,7 +28,7 @@ redirected to a login page unless they send a valid session cookie.
 
 Example (client code):
 
-`emit('getfeedmeta', [{name:'mobile'}], console.log);`
+`emit('getfeedmeta', [{name:'mypush'}], console.log);`
 
 `socket.on('update', console.log)`
 
@@ -36,7 +36,7 @@ Example (client code):
 
 Returns structure that describes what is part of the feed.
 
-* `name` - name of feed like `"mobile"`.
+* `name` - name of feed like `"mypush"`.
 
 ### getfeed
 
@@ -44,7 +44,7 @@ Returns feed for given name.
 
 Request
 
-* `name` - name of feed. `"mobile"`.
+* `name` - name of feed. `"mypush"`.
 * `from` - uri to start from, all newer entries from this will be
 returned.
 
@@ -59,7 +59,7 @@ Returns older feed items
 
 Request
 
-* `name` - name of feed. `"mobile"`.
+* `name` - name of feed. `"mypush"`.
 * `from` - uri to start from
 * `amount` - amount of articles to get
 
@@ -75,21 +75,12 @@ ensure that the client is driving whether we are keeping cached
 entries for a user. If subscribe stops, the cache can be allowed
 to expire.
 
-* `name` - name of feed. `"mobile"`
+* `name` - name of feed. `"mypush"`
 
 ### getitem
 
 * `uri` - the uri of the item to fetch
 
-### device
-
-Registers the device token.
-
-* `token` - the device token.
-* `type` - type of device `"ios"` or `"android"`
-* `model` - model string.
-* `name` - device name (if available)
-* `env` - whether we're using sandbox or production apn `"development"` or `"production"`.
 
 ## HTTP Long Poll API
 
@@ -101,7 +92,6 @@ corresponding HTTP endpoints:
  * `http://beta.tt.se/punkt/v1/getold`
  * `http://beta.tt.se/punkt/v1/subscribe`
  * `http://beta.tt.se/punkt/v1/getitem`
- * `http://beta.tt.se/punkt/v1/device`
 
 Request parameters remain the same, and are passed as regular query
 parameters. In addition, you must also provide a
@@ -109,11 +99,9 @@ parameters. In addition, you must also provide a
 contains a JSON payload with the same contents as with the
 [WebSocket API][wsapi].
 
-[apikey]:api.html#application-keys
-
 Example:
 
-`curl https://beta.tt.se/punkt/v1/getfeedmeta?name=mobile\&ak=<YOUR KEY HERE>`
+`curl "https://beta.tt.se/punkt/v1/getfeedmeta?name=mypush&ak=<YOUR KEY HERE>"`
 
 ### update
 
@@ -122,4 +110,28 @@ endpoint for receiving updates to subscribed feeds:
 
  * `http://beta.tt.se/punkt/v1/update`
 
-New feed items are pushed from server to client as they arrive. 
+New feed items are pushed from server to client as they arrive.
+
+#### Example
+
+To subscribe to feed and receive continuous updates as new items arrive.
+
+1. Create a [delivery channel][delchan] (leveranskanal) of type
+   "Push-API" with a specic feed name.
+2. Create an [api key][apikey].
+3. "Star" some content (bevakningar)
+   and [redirect their output][bevak] to the channel.
+4. ll re-subscribe every 30 seconds and update to poll for new
+   content.
+
+```
+    # every 30 secs do this
+    https://beta.tt.se/punkt/v1/subscribe?name=<YOUR FEED NAME>&ak=<YOUR KEY HERE>
+
+    # this call "hangs" until there is content available
+    https://beta.tt.se/punkt/v1/update?name=<YOUR FEED NAME>&ak=<YOUR KEY HERE>
+```
+
+[apikey]:api.html#application-keys
+[delchan]:https://beta.tt.se/mina-sidor/kanaler
+[bevak]:https://beta.tt.se/bevakningar
