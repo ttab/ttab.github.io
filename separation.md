@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Degrees of Separation
-navbar: 1
 ---
 
 ## Summary
