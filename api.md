@@ -1,7 +1,7 @@
 ---
 layout: page
 title: API
-navbar: 1
+navbar: 4
 ---
 
 ## Application Keys

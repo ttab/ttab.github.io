@@ -121,7 +121,7 @@ To subscribe to feed and receive continuous updates as new items arrive.
 2. Create an [api key][apikey].
 3. "Star" some content (bevakningar)
    and [redirect their output][bevak] to the channel.
-4. ll re-subscribe every 30 seconds and update to poll for new
+4. Re-subscribe every 30 seconds and call update to poll for new
    content.
 
 ```
