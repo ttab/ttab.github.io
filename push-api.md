@@ -23,7 +23,7 @@ and a callback which will be called when a response is received. In
 addition, updates to subscribed feeds are pushed from server to client
 with the subject `update`.
 
-The main entry point is `http://beta.tt.se/punkt`. Clients will be
+The main entry point is `https://beta.tt.se/punkt`. Clients will be
 redirected to a login page unless they send a valid session cookie.
 
 Example (client code):
@@ -87,11 +87,11 @@ to expire.
 All operations that are part of the [WebSocket API][wsapi] also have
 corresponding HTTP endpoints:
 
- * `http://beta.tt.se/punkt/v1/getfeedmeta`
- * `http://beta.tt.se/punkt/v1/getfeed`
- * `http://beta.tt.se/punkt/v1/getold`
- * `http://beta.tt.se/punkt/v1/subscribe`
- * `http://beta.tt.se/punkt/v1/getitem`
+ * `https://beta.tt.se/punkt/v1/getfeedmeta`
+ * `https://beta.tt.se/punkt/v1/getfeed`
+ * `https://beta.tt.se/punkt/v1/getold`
+ * `https://beta.tt.se/punkt/v1/subscribe`
+ * `https://beta.tt.se/punkt/v1/getitem`
 
 Request parameters remain the same, and are passed as regular query
 parameters. In addition, you must also provide a
@@ -108,7 +108,7 @@ Example:
 In addition to the above endpoints, the HTTP Long Poll API provides an
 endpoint for receiving updates to subscribed feeds:
 
- * `http://beta.tt.se/punkt/v1/update`
+ * `https://beta.tt.se/punkt/v1/update`
 
 New feed items are pushed from server to client as they arrive.
 
