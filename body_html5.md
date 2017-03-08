@@ -8,6 +8,7 @@ This is a "loose" spec for the body_html5 part of [ttninjs][ttninjs].
 Revision history
 ----------------
 
+* 1.5 Added `<a>` to schema 2017-03-08
 * 1.4 `<footer>` and `<h5>` for changes as of 2016-10-03
 * 1.3 Clarify html-doc structure
 * 1.2 alt-attribute in `<img>`, `div.byline` before `figcaption` (to be html5-valid)
@@ -107,7 +108,21 @@ body_html5
       <blockquote>A baby this size is not much to fear, but a
           lone tusker is another story.</blockquote>
 
+      <!-- p-elements can contain a-elements with links -->
+      <p>You can find the TT-specifications <a href="http://spec.tt.se/">here.</a></p>
+
+      <!-- Bodytext can contain html-tables: -->
+      <table>
+      <tr><td>Kommun</td><td>Antal män</td><td>Antal kvinnor</td><td>Andel kvinnor (procent)</td><td>Andel män (procent)</td></tr>
+      <tr><td>Lidingö</td><td>22 844</td><td>24 009</td><td>51,2</td><td>48,8</td></tr>
+      <tr><td>Östersund</td><td>30 189</td><td>31 556</td><td>51,1</td><td>48,9</td></tr>
+      <tr><td>Ystad</td><td>14 405</td><td>15 043</td><td>51,1</td><td>48,9</td></tr>
+      </table>
+
+
     </div>
+
+    <!-- If you handle sports results and tables from the html5 format please note that they have another body-structure than the pure text format. See the html5 schema for details. -->
 
     <!-- Byline for this text part. -->
     <div class="byline">Martin/TT</div>
