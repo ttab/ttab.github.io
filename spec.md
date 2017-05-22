@@ -18,8 +18,7 @@ Name                 | Description
 [body\_html5.xsd][7] | body\_html5 schema
 [catalog][8]         | newsml tt: qcode catalog
 [newsml][9]          | newsml spec
-[ttnitf][10]         |  TTNITF DTD and documentation
-[openid flow][11]    | TT OpenID login flow
+[ttnitf][10]         | TTNITF DTD and documentation
 [revisions][12]      | Revisions section of ttninjs/newsmlg2
 [separation][13]     | Degrees of separation. Linking between items.
 
