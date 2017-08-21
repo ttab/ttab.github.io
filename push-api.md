@@ -23,14 +23,23 @@ and a callback which will be called when a response is received. In
 addition, updates to subscribed feeds are pushed from server to client
 with the subject `update`.
 
-The main entry point is `https://beta.tt.se/punkt`. Clients will be
+The main entry point is `https://beta.tt.se/punkt/ap/socket.io`. Clients will be
 redirected to a login page unless they send a valid session cookie.
 
 Example (client code):
 
-`emit('getfeedmeta', [{name:'mypush'}], console.log);`
+```javascript
+var socket = io.connect('https://beta.tt.se', {
+  path: '/punkt/ap/socket.io',
+  query: { ak: '<YOUR KEY HERE>' }
+})
 
-`socket.on('update', console.log)`
+socket.on('connect', () => {
+  socket.emit('getfeedmeta', [{name: '<FEED NAME HERE>'}], console.log)
+
+  socket.on('update', console.log)
+})
+```
 
 ### getfeedmeta
 
