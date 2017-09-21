@@ -7,15 +7,25 @@ navbar: 3
 Utilities and stuff released as Open Source.
 
 {:.table}
-Name | Description | System
---- | --- | ---
-<a href="http://github.com/ttab/bog" target="_bog">bog</a> | Thinnest possible logging | <img src="images/javascript_logo.png" height="16"/>&nbsp;JavaScript
-<a href="http://github.com/ttab/tttags" target="_tttags">tttags</a> | a TT-styled tags jquery plugin | <img src="images/javascript_logo.png" height="16"/>&nbsp;JavaScript
-<a href="http://github.com/ttab/ttbox" target="_ttbox">ttbox</a> | Modern search box with pills for restrictions |<img src="images/javascript_logo.png" height="16"/>&nbsp;JavaScript
-<a href="http://github.com/ttab/tenacious-q" target="_tenacious-q">tenacious-q</a> |A more robust RabbitMQ experience. |<img src="images/coffee_logo.png" height="16"/>&nbsp;CoffeeScript
-<a href="http://github.com/ttab/amgp-as-promised" target="_amgp-as-promised">amgp-as-promised</a> |&nbsp; |<img src="images/coffee_logo.png" height="16"/>&nbsp;CoffeeScript
-<a href="http://github.com/ttab/notr" target="_notr">notr</a> |Extremely simple notifications |<img src="images/coffee_logo.png" height="16"/>&nbsp;CoffeeScript
-<a href="http://github.com/ttab/eslight" target="_eslight">eslight</a> | Lightweight ES client for node.js | <img src="images/coffee_logo.png" height="16"/>&nbsp;CoffeeScript
-<a href="http://github.com/ttab/rabbiteer" target="_rabbiteer">rabbiteer</a> | .NET service + client to publish/consume messages to RabbitMQ | <img src="images/csharp_logo.png" height="16"/>&nbsp;C#
-<a href="http://github.com/ttab/bootswatchtt" target="_bootswatchtt">bootswatchtt</a> |Bootswatch build for TT |<img src="images/css_logo.png" height="16"/>&nbsp;CSS
+Name                | Description                                                   | System
+--------------------| ------------------------------------------------------------- | ---
+[amgp-as-promised]	|                                                               | ![](images/coffee_logo.png) CoffeeScript
+[bog]				| Thinnest possible logging                                     | ![](images/javascript_logo.png) JavaScript
+[bootswatchtt]		| Bootswatch build for TT                                       | ![](images/css_logo.png) CSS
+[eslight]			| Lightweight ES client for node.js                             | ![](images/coffee_logo.png) CoffeeScript
+[notr]				| Extremely simple notifications                                | ![](images/coffee_logo.png) CoffeeScript
+[rabbiteer]			| .NET service + client to publish/consume messages to RabbitMQ | ![](images/csharp_logo.png) C#
+[tenacious-q]		| A more robust RabbitMQ experience.                            | ![](images/coffee_logo.png) CoffeeScript
+[ttbox]				| Modern search box with pills for restrictions                 | ![](images/javascript_logo.png) JavaScript
+[tttags]			| a TT-styled tags jquery plugin                                | ![](images/javascript_logo.png) JavaScript
+
+[amgp-as-promised]:http://github.com/ttab/amgp-as-promised
+[bog]:http://github.com/ttab/bog
+[bootswatchtt]:http://github.com/ttab/bootswatchtt
+[eslight]:http://github.com/ttab/eslight
+[notr]:http://github.com/ttab/notr
+[rabbiteer]:http://github.com/ttab/rabbiteer
+[tenacious-q]:http://github.com/ttab/tenacious-q
+[ttbox]:http://github.com/ttab/ttbox
+[tttags]:http://github.com/ttab/tttags
 

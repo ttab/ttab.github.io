@@ -36,6 +36,7 @@ någon av följande personer:
 
 ### Innehåll
 
+{:.table}
 [TTNITF.dtd](https://raw.githubusercontent.com/ttab/ttnitf/master/TTNITF.dtd) | DTD för att validera TTNITF-filer i SGML-format.
 [TTNITFversion3_4.pdf](https://raw.githubusercontent.com/ttab/ttnitf/master/TTNITF version3_4.pdf) | Svensk beskrivning av TTNITF med förklaring till element, attribut och värdelistor.
 [TTNITFversion3_4eng.pdf](https://raw.githubusercontent.com/ttab/ttnitf/master/TTNITFversion3_4eng.pdf) | Engelsk beskrivning av TTNITF med förklaring till element, attribut och värdelistor.
