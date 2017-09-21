@@ -28,18 +28,19 @@ engelska.
 * TTNIFT = TT:s SGML DTD som bygger dels på IIM och NITF och som registrerats hos IPTC med nummer 27. (http://www.tt.se/)
 * XML = eXtensible Markup Language. Utvecklat av W3C som en enklare version av SGML med målsättningen att ge ett bättre alternativ till HTML.
 
-Om Ni har frågor om innehållet eller om TT:s sändformat, kontakta någon av följande personer:
+Om Ni har frågor om innehållet eller om TT:s sändformat, kontakta
+någon av följande personer:
 
 * Johan Lindgren, Systemutvecklare, 060-176815, johan.lindgren@tt.se
-* Anna Nordström,    IT-chef,        anna.nordstrom@tt.se
+* Anna Nordström, IT-chef, anna.nordstrom@tt.se
 
 ### Innehåll
 
-TTNITF.dtd               | DTD för att validera TTNITF-filer i SGML-format.
-TTNITF version3_4.pdf    | Svensk beskrivning av TTNITF med förklaring till element, attribut och värdelistor.
-TTNITFversion3_4eng.pdf  | Engelsk beskrivning av TTNITF med förklaring till element, attribut och värdelistor.
-TTNITF.dtd_3.4.pdf       | Ovanstående DTD i pdf-format på svenska.
-TTNITF.dtd_3.4_eng.pdf   | Ovanstående DTD i pdf-format på engelska.
+[TTNITF.dtd](https://raw.githubusercontent.com/ttab/ttnitf/master/TTNITF.dtd) | DTD för att validera TTNITF-filer i SGML-format.
+[TTNITFversion3_4.pdf](https://raw.githubusercontent.com/ttab/ttnitf/master/TTNITF version3_4.pdf) | Svensk beskrivning av TTNITF med förklaring till element, attribut och värdelistor.
+[TTNITFversion3_4eng.pdf](https://raw.githubusercontent.com/ttab/ttnitf/master/TTNITFversion3_4eng.pdf) | Engelsk beskrivning av TTNITF med förklaring till element, attribut och värdelistor.
+[TTNITF.dtd_3.4.pdf](https://raw.githubusercontent.com/ttab/ttnitf/master/TTNITF.dtd_3.4.pdf) | Ovanstående DTD i pdf-format på svenska.
+[TTNITF.dtd_3.4_eng.pdf](https://raw.githubusercontent.com/ttab/ttnitf/master/TTNITF.dtd_3.4_eng.pdf) | Ovanstående DTD i pdf-format på engelska.
 
 ### Revisionshistoria
 
