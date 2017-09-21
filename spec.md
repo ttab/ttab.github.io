@@ -29,9 +29,9 @@ Name                 | Description
 [5]:  dates.html
 [6]:  body_html5.html
 [7]:  https://raw.githubusercontent.com/ttab/ttspec/master/body_html5.xsd
-[8]:  http://tt.se/spec/catalog/1.0
+[8]:  http://tt.se/spec/catalog/catalog.tt-g2.1_0.xml
 [9]:  newsml.html
-[10]: http://spec.tt.se/ttnitf
+[10]: ttnitf.html
 [11]: openidflow.html
 [12]: revisions.html
 [13]: separation.html
