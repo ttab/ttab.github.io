@@ -46,6 +46,14 @@ $on-laptop:        800px;
         "layout"
 ;
 
+.deprecated {
+  text-decoration: line-through;
+  color: #888;
+  opacity: 0.5;
+  code {
+  }
+}
+
 article img {
     max-width: 700px;
 }
