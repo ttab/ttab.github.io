@@ -22,14 +22,14 @@ Name                 | Description
 [revisions][12]      | Revisions section of ttninjs/newsmlg2
 [separation][13]     | Degrees of separation. Linking between items.
 
-[1]:  http://github.com/ttab/ttspec
-[2]:  http://tt.se/spec
+[1]:  https://github.com/ttab/ttspec
+[2]:  https://tt.se/spec
 [3]:  https://raw.githubusercontent.com/ttab/ttspec/master/ttninjs-schema_1.0.json
 [4]:  https://github.com/ttab/ttspec#ttninjs-change-history
 [5]:  dates.html
 [6]:  body_html5.html
 [7]:  https://raw.githubusercontent.com/ttab/ttspec/master/body_html5.xsd
-[8]:  http://tt.se/spec/catalog/catalog.tt-g2.1_0.xml
+[8]:  https://tt.se/spec/catalog/catalog.tt-g2.1_0.xml
 [9]:  newsml.html
 [10]: ttnitf.html
 [11]: openidflow.html
