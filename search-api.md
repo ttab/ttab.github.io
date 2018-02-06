@@ -19,56 +19,33 @@ GET https://tt.se/api/search?q=lorem+ipsum&p=FOTO&ak=<apiKey>       # search for
 
 ## Query parameters
 
-```
-?ak=<apiKey>            # Use this api key to authenticate. With this, no login is needed.
-```
+{:.table}
+Name                      | Description 
+--------------------------|--------------
+`?ak=<apiKey>`            | Use this api key to authenticate. With this, no login is needed.
+`?q=<query>`              | Use this out parameter to ...
+`?p=<productCode>,<productCode>,...`        | Filter search result by products. Lookup your available product codes with the search API
+`?agr=<agreementId>,<agreementId>,...`      | Filter search result by agreements. Lookup your available agreements with the search API
+`?trs=2015-10-10`         | Start date
+`?tre=2015-10-14`         | End date
+`?tr=h `                  | Time range: hour
+`?tr=d `                  | Time range: day
+`?tr=w `                  | Time range: week
+`?tr=m `                  | Time range: month
+`?tr=y `                  | Time range: year
+`?s=<size>`               | Size of search result (default: 20)
+`?fr=<from>`              | Index into search result
+`?sort=asc|desc`          | Sort ascending or descending (default)
 
-```
-?q=<query>              # Use this out parameter to ...
-```
-
-```
-?p=<productCode>        # Filter search result by products. Lookup your available product codes with the search API
-```
-
-```
-?agr=<agreementId>      # Filter search result by agreements. Lookup your available agreements with the search API
-```
-
-```
-?trs=2015-10-10         # start date
-```
-
-```
-?tre=2015-10-14         # end date
-```
-
-```
-# time range
-```
-
-```
-?tr=h                   # hour
-```
-
-```
-?tr=d                   # day
-```
-
-```
-?tr=w                   # week
-```
-
-```
-?tr=m                   # month
-```
-
-```
-?tr=y                   # year
-```
-
-## Lookup your products/agreements
+# Lookup your products/agreements
 
 ```
 GET https://tt.se/api/search/agreements?ak=<apiKey> 
 ```
+
+## Query parameters
+
+{:.table}
+Name                      | Description 
+--------------------------|--------------
+`?ak=<apiKey>`            | Use this api key to authenticate. With this, no login is needed.
