@@ -35,7 +35,7 @@ Name                      | Description
 `?tr=y `                  | Time range: year
 `?s=<size>`               | Size of search result (default: 20)
 `?fr=<from>`              | Index into search result
-`?sort=asc|desc`          | Sort ascending or descending (default)
+`?sort=asc|desc|stor|rel` | Sort by ascending or descending (default) created date, stored date, or relevance
 
 # Lookup your products/agreements
 
