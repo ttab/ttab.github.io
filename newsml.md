@@ -440,7 +440,7 @@ The XML explained
             @height/width is corresponding ttninjs height/width in
             pixels -->
         <remoteContent rendition="rnd:highRes"
-                       href="https://beta.tt.se/media/.../a000_NormalHires.jpg"
+                       href="https://app.tt.se/media/.../a000_NormalHires.jpg"
                        size="65789"
                        contenttype="image/jpeg"
                        width="640" height="427">
@@ -480,7 +480,7 @@ The XML explained
         <!--
             @durationunit is always "timeunit:seconds" -->
         <remoteContent rendition="ttrend:rndhidef"
-                       href="https://beta.tt.se/media/.../a000_NormalHires.mp4"
+                       href="https://app.tt.se/media/.../a000_NormalHires.mp4"
                        size="6578941"
                        contenttype="video/mp4"
                        duration="140"

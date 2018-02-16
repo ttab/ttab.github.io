@@ -35,11 +35,11 @@ text, maybe in situ, maybe last.
 
 ```html
 <figure>
-    <img src="https://beta.tt.se/media/text/161208-larslerin-380203/a001_CroppedThumbnail.jpg"
+    <img src="https://app.tt.se/media/text/161208-larslerin-380203/a001_CroppedThumbnail.jpg"
          alt="I första programmet diskuterar Lars Lerin föräldraskap med skådespelaren Helena Bergström. Pressbild."
          data-assoc-ref="a001"
          data-uri="http://tt.se/media/image/8DADBB3B24C74988970E98F8A070E5B8"
-         data-preview-src="https://beta.tt.se/media/text/161208-larslerin-380203/a001_NormalPreview.jpg"
+         data-preview-src="https://app.tt.se/media/text/161208-larslerin-380203/a001_NormalPreview.jpg"
      />
     <div class="byline">SVT</div>
     <figcaption>I första programmet diskuterar Lars Lerin föräldraskap med skådespelaren Helena Bergström. Pressbild.</figcaption>
@@ -72,7 +72,7 @@ Under ttninjs `associations` we find:
         "r00": {
           "sizeinbytes": 78979,
           "mimetype": "image/jpeg",
-          "href": "https://beta.tt.se/media/text/161208-larslerin-380203/a001_CroppedThumbnail.jpg",
+          "href": "https://app.tt.se/media/text/161208-larslerin-380203/a001_CroppedThumbnail.jpg",
           ...
 ```
 

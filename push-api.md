@@ -7,7 +7,7 @@ The push API allows real-time access to feeds defined on the
 [tt.se][tt] web site. The API is available using either
 [WebSockets (Socket.IO)][wsapi] or [HTTP long poll][lpapi].
 
-[tt]:http://beta.tt.se
+[tt]:http://app.tt.se
 [io]:http://socket.io
 [wsapi]:#websocket-api
 [lpapi]:#http-long-poll-api
@@ -26,7 +26,7 @@ addition, updates to subscribed feeds are pushed from server to client
 with the subject `update`.
 {:.deprecated}
 
-The main entry point is `https://beta.tt.se/punkt/ap/socket.io`. Clients will be
+The main entry point is `https://app.tt.se/punkt/ap/socket.io`. Clients will be
 redirected to a login page unless they send a valid session cookie.
 {:.deprecated}
 
@@ -34,7 +34,7 @@ Example (client code):
 {:.deprecated}
 
 ```javascript
-var socket = io.connect('https://beta.tt.se', {
+var socket = io.connect('https://app.tt.se', {
   path: '/punkt/ap/socket.io',
   query: { ak: '<YOUR KEY HERE>' }
 })
@@ -122,11 +122,11 @@ to expire.
 All operations that are part of the [WebSocket API][wsapi] also have
 corresponding HTTP endpoints:
 
- * `https://beta.tt.se/punkt/v1/getfeedmeta`
- * `https://beta.tt.se/punkt/v1/getfeed`
- * `https://beta.tt.se/punkt/v1/getold`
- * `https://beta.tt.se/punkt/v1/subscribe`
- * `https://beta.tt.se/punkt/v1/getitem`
+ * `https://app.tt.se/punkt/v1/getfeedmeta`
+ * `https://app.tt.se/punkt/v1/getfeed`
+ * `https://app.tt.se/punkt/v1/getold`
+ * `https://app.tt.se/punkt/v1/subscribe`
+ * `https://app.tt.se/punkt/v1/getitem`
 
 Request parameters remain the same, and are passed as regular query
 parameters. In addition, you must also provide a
@@ -136,14 +136,14 @@ contains a JSON payload with the same contents as with the
 
 Example:
 
-`curl "https://beta.tt.se/punkt/v1/getfeedmeta?name=mypush&ak=<YOUR KEY HERE>"`
+`curl "https://app.tt.se/punkt/v1/getfeedmeta?name=mypush&ak=<YOUR KEY HERE>"`
 
 ### update
 
 In addition to the above endpoints, the HTTP Long Poll API provides an
 endpoint for receiving updates to subscribed feeds:
 
- * `https://beta.tt.se/punkt/v1/update`
+ * `https://app.tt.se/punkt/v1/update`
 
 New feed items are pushed from server to client as they arrive.
 
@@ -161,12 +161,12 @@ To subscribe to feed and receive continuous updates as new items arrive.
 
 ```
     # every 30 secs do this
-    https://beta.tt.se/punkt/v1/subscribe?name=<YOUR FEED NAME>&ak=<YOUR KEY HERE>
+    https://app.tt.se/punkt/v1/subscribe?name=<YOUR FEED NAME>&ak=<YOUR KEY HERE>
 
     # this call "hangs" until there is content available
-    https://beta.tt.se/punkt/v1/update?name=<YOUR FEED NAME>&ak=<YOUR KEY HERE>
+    https://app.tt.se/punkt/v1/update?name=<YOUR FEED NAME>&ak=<YOUR KEY HERE>
 ```
 
 [apikey]:api.html#application-keys
-[delchan]:https://beta.tt.se/mina-sidor/kanaler
-[bevak]:https://beta.tt.se/bevakningar
+[delchan]:https://app.tt.se/mina-sidor/kanaler
+[bevak]:https://app.tt.se/bevakningar

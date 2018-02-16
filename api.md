@@ -8,7 +8,7 @@ navbar: 4
 
 Access to our API:s require keys that ties the requests to specific
 users. Generate api-keys
-[using the kundwebb](https://beta.tt.se/mina-sidor/api-nycklar).
+[using the kundwebb](https://app.tt.se/mina-sidor/api-nycklar).
 
 # Overview
 
@@ -69,7 +69,7 @@ delivery, or simply have a continuous delivery of article metadata.
 We use delivery channels to configure both formats and method of
 delivery.
 
-[Configure deliveries using kundwebb](https://beta.tt.se/mina-sidor/kanaler)
+[Configure deliveries using kundwebb](https://app.tt.se/mina-sidor/kanaler)
 
 ## Push API
 

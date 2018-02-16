@@ -70,9 +70,9 @@ agreement for hires media.
 1. Figure out the subscription agreement ID. Lookup your available
 agreements with the [search API](search-api.html#lookup-your-productsagreements).
 2. Generate an
-   [api-key using the kundwebb](https://beta.tt.se/mina-sidor/api-nycklar).
+   [api-key using the kundwebb](https://app.tt.se/mina-sidor/api-nycklar).
 3. Create a
-   [delivery channel using the kundwebb](https://beta.tt.se/mina-sidor/kanaler). Notice
+   [delivery channel using the kundwebb](https://app.tt.se/mina-sidor/kanaler). Notice
    the channel ID.
 
 To deliver 151006-senap-162464 using a specific channel (which determins both formats and delivery method) do:
