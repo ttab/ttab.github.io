@@ -24,7 +24,7 @@ Name                 | Description
 
 [1]:  https://github.com/ttab/ttspec
 [2]:  https://tt.se/spec
-[3]:  https://raw.githubusercontent.com/ttab/ttspec/master/ttninjs-schema_1.0.json
+[3]:  https://tt.se/spec/ttninjs/ttninjs-schema_1.0.json
 [4]:  https://github.com/ttab/ttspec#ttninjs-change-history
 [5]:  dates.html
 [6]:  body_html5.html
