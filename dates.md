@@ -80,8 +80,9 @@ differently depending on type of data.
      1. use `versionstored` if it is before last midnight. The
         midnight rule is to avoid old photos appear on first page.
      2. else `null` (we have no okay date)
- 3. if `versioncreated` is okay:
-    1. use `versioncreated` if it is before last midnight.
-    2. else use `now`. This is so that photography for today that are
-       indexed/recevied out-of-order, still will appear in the order we
-       receive them.
+  3. if `versioncreated` is okay:
+     1. use `versioncreated` if it is before last midnight.
+     2. else use `now`. This is so that photography for today that are
+        indexed/recevied out-of-order, still will appear in the order we
+        receive them.
+ 
