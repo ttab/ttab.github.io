@@ -20,7 +20,7 @@ Name                | Description                                               
 [ttbox]				| Modern search box with pills for restrictions                 | ![](images/javascript_logo.png) JavaScript
 [tttags]			| a TT-styled tags jquery plugin                                | ![](images/javascript_logo.png) JavaScript
 
-[amgp-as-promised]:http://github.com/ttab/amgp-as-promised
+[amqp-as-promised]:http://github.com/ttab/amqp-as-promised
 [bog]:http://github.com/ttab/bog
 [bootswatchtt]:http://github.com/ttab/bootswatchtt
 [eslight]:http://github.com/ttab/eslight
