@@ -9,7 +9,7 @@ Utilities and stuff released as Open Source.
 {:.table}
 Name                | Description                                                   | System
 --------------------| ------------------------------------------------------------- | ---
-[amgp-as-promised]	|                                                               | ![](images/coffee_logo.png) CoffeeScript
+[amqp-as-promised]	|                                                               | ![](images/coffee_logo.png) CoffeeScript
 [bog]				| Thinnest possible logging                                     | ![](images/javascript_logo.png) JavaScript
 [bootswatchtt]		| Bootswatch build for TT                                       | ![](images/css_logo.png) CSS
 [eslight]			| Lightweight ES client for node.js                             | ![](images/coffee_logo.png) CoffeeScript
