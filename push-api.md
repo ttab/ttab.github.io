@@ -3,9 +3,14 @@ layout: page
 title: Push API
 ---
 
+`Deprecated`. You should probably look into using the [Content
+API](https://api.tt.se/docs) instead.
+
+
 The push API allows real-time access to feeds defined on the
 [tt.se][tt] web site. The API is available using either
 [WebSockets (Socket.IO)][wsapi] or [HTTP long poll][lpapi].
+{:.deprecated}
 
 [tt]:http://app.tt.se
 [io]:http://socket.io
@@ -14,10 +19,10 @@ The push API allows real-time access to feeds defined on the
 
 * TOC
 {:toc}
+{:.deprecated}
 
 ## WebSocket API
-
-`deprecated`
+{:.deprecated}
 
 The WebSocket API is built on [socket.io][io]. The client emits
 messages with a JSON payload containing an array of request parameters
@@ -118,38 +123,50 @@ to expire.
 
 
 ## HTTP Long Poll API
+{:.deprecated}
 
 All operations that are part of the [WebSocket API][wsapi] also have
 corresponding HTTP endpoints:
+{:.deprecated}
 
  * `https://app.tt.se/punkt/v1/getfeedmeta`
  * `https://app.tt.se/punkt/v1/getfeed`
  * `https://app.tt.se/punkt/v1/getold`
  * `https://app.tt.se/punkt/v1/subscribe`
  * `https://app.tt.se/punkt/v1/getitem`
+{:.deprecated}
 
 Request parameters remain the same, and are passed as regular query
 parameters. In addition, you must also provide a
 [valid API Key][apikey] through the `ak` parameter. The response body
 contains a JSON payload with the same contents as with the
 [WebSocket API][wsapi].
+{:.deprecated}
 
 Example:
+{:.deprecated}
 
 `curl "https://app.tt.se/punkt/v1/getfeedmeta?name=mypush&ak=<YOUR KEY HERE>"`
+{:.deprecated}
 
 ### update
+{:.deprecated}
 
 In addition to the above endpoints, the HTTP Long Poll API provides an
 endpoint for receiving updates to subscribed feeds:
+{:.deprecated}
 
  * `https://app.tt.se/punkt/v1/update`
+{:.deprecated}
 
 New feed items are pushed from server to client as they arrive.
+{:.deprecated}
 
 #### Example
+{:.deprecated}
 
 To subscribe to feed and receive continuous updates as new items arrive.
+{:.deprecated}
 
 1. Create a [delivery channel][delchan] (leveranskanal) of type
    "Push-API" with a specic feed name.
@@ -158,6 +175,7 @@ To subscribe to feed and receive continuous updates as new items arrive.
    and [redirect their output][bevak] to the channel.
 4. Re-subscribe every 30 seconds and call update to poll for new
    content.
+{:.deprecated}
 
 ```
     # every 30 secs do this
@@ -166,6 +184,7 @@ To subscribe to feed and receive continuous updates as new items arrive.
     # this call "hangs" until there is content available
     https://app.tt.se/punkt/v1/update?name=<YOUR FEED NAME>&ak=<YOUR KEY HERE>
 ```
+{:.deprecated}
 
 [apikey]:api.html#application-keys
 [delchan]:https://app.tt.se/mina-sidor/kanaler
