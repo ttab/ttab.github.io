@@ -4,12 +4,13 @@ title: TT NewsML spec
 ---
 
 TT:s main content format is [ttninjs](https://raw.githubusercontent.com/ttab/ttspec/master/ttninjs-schema_1.0.json).
-The XML variant is a [IPTC NewsML G2 2.20](https://iptc.org/standards/newsml-g2/) compliant translation of ttninjs
+The XML variant is a [IPTC NewsML G2 2.28](https://iptc.org/standards/newsml-g2/) compliant translation of ttninjs
 where each field somehow relates back to the original ttninjs.
 
 Revision history
 ----------------
 
+* 1.7 changed to NewsML-G2 2.28.
 * 1.6 added `<bylines>`
 * 1.5 added `<contentMetaExtProperty>` for `date`, `datetime`, `enddate` and `enddatetime`.
 * 1.4 added `<revisions>` section.
@@ -98,10 +99,10 @@ The XML explained
         be omitted. -->
     <packageItem guid="http://tt.se/media/text/150410-elephantuv2-85160-pack"
                  version="1" standard="NewsML-G2"
-                 standardversion="2.20" conformance="power" xml:lang="sv">
+                 standardversion="2.28" xml:lang="sv">
       <!-- see <newsItem> below -->
       <catalogRef
-          href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_24.xml"/>
+          href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_33.xml"/>
       <!-- see <newsItem> below -->
       <catalogRef href="http://tt.se/spec/catalog/catalog.tt-g2.1_0.xml"/>
       <!-- same <itemMeta> as in the main <newsItem>, see definition below. -->
@@ -144,13 +145,12 @@ The XML explained
     <newsItem guid="http://tt.se/media/text/150410-elephantuv2-85160"
               version="1"
               standard="NewsML-G2"
-              standardversion="2.20"
-              conformance="power"
+              standardversion="2.28"
               xml:lang="sv">
 
       <!-- catalog for ninat:, nprov:, irel:, cpnat:, drol:, etc... -->
       <catalogRef
-          href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_24.xml"/>
+          href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_33.xml"/>
       <!-- catalogRef for tt:, ttstat:, ttext:, etc... -->
       <catalogRef href="http://tt.se/spec/catalog/catalog.tt-g2.1_0.xml"/>
 
@@ -379,7 +379,7 @@ The XML explained
 
       <contentSet>
 
-        <inlineXML contenttype="text/html">
+        <inlineXML contenttype="text/html" contenttypevariant="html5">
           <!-- value is ttninjs.body_html5. content is not xhtml but
                rather html5 ensured to be xml compliant.
                See http://tt.se/spec/body_html5 -->
